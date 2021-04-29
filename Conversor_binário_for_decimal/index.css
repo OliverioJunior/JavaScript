@@ -1,0 +1,24 @@
+div{
+    width:400px;
+    height:400px;
+    margin:auto;
+    background-color: rgb(0, 132, 255);
+    border-radius: 5px;
+}
+#decimal{
+    margin-left: 110px;
+    padding-top: ;
+}
+#binario{
+    margin-left: 80px;
+    
+}
+h1,p{
+   
+    text-align: center;
+}
+textarea.noscrollbars {
+    overflow: hidden;
+    width: 300px;
+    height: 100px;
+  }
