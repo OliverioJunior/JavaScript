@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head> 
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="calculadora.css">
+</head>
+<body>
+    <div id ='conteiner'>
+        <div id ='screen'><div id = 'tela'></div></div>
+            <div id = 'agrupar' class="agrupar" >
+                
+                <button class = 'button reset' onclick="reset()">C</button>
+                <button class = 'button moreorless' onclick="moreorless()">±</button>
+                <button class = 'button percentage' onclick="percentage()">%</button>
+                <button class = 'button share' onclick="operations('/')">÷</button>
+                <button class = 'button seven' onclick="number(7)">7</button>
+                <button class = 'button eigth' onclick="number(8)">8</button>
+                <button class = 'button nine' onclick="number(9)">9</button>
+                <button class = 'button multiplier' onclick="operations('x')">x</button>
+                <button class = 'button four' onclick="number(4)">4</button>
+                <button class = 'button five' onclick="number(5)">5</button>
+                <button class = 'button six' onclick="number(6)">6</button>
+                <button class = 'button less' onclick="operations('-')">-</button>
+                <button class = 'button one' onclick="number(1)">1</button>
+                <button class = 'button two' onclick="number(2)">2</button>
+                <button class = 'button three' onclick="number(3)">3</button>
+                <button class = 'button more'onclick="operations('+')">+</button>
+                <button class = 'button zero' onclick="number(0)">0</button>
+                <button class = 'button comma'onclick="comma()">,</button>
+                <button class = 'button equal'onclick="equal()">=</button>
+            </div>
+    </div>
+</body>
+    <script src = 'calculadora.js'></script>
+</html>

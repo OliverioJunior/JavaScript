@@ -1,0 +1,102 @@
+body{
+  background-color:rgba(97, 30, 30, 0.918);
+}
+#conteiner{
+    margin:auto;
+    background-color: black;
+    display: grid;
+    grid-template-rows: 2;
+    grid-template-columns: 2;
+    max-width: max-content;
+    box-shadow: 2px 2px 2px 1px rgba(15, 15, 15, 0.822);
+    border-radius: 5px;
+    
+}
+#screen{
+    white-space: nowrap;
+    background-color:rgba(58, 19, 3, 0.979);
+    border:none;
+    margin:auto;
+    text-align: right;
+    text-overflow:clip;
+    font-size: 40px;
+    color: rgb(245, 205, 205);
+    grid-row-start: 1 ;
+    grid-row-end: -1;
+    width:100%;
+    max-width: 15ch;
+    height:70px;
+    box-shadow: 2px 2px 2px 1px rgba(15, 15, 15, 0.822);
+    border-radius: 5px;
+
+}
+#agrupar{
+    margin:auto;
+    background-color:rgba(58, 19, 3, 0.979);
+    padding-left: 1em;
+    border: 1px solid rgba(0, 0, 0, 0);
+    display: grid;
+    grid-template-rows: auto;
+    grid-template-columns: repeat(4, 70px);
+    box-shadow: 2px 2px 2px 1px rgba(15, 15, 15, 0.822);
+    border-radius: 5px;
+ }
+ #tela{
+   margin:auto;
+   background-color: rgb(196, 178, 155);
+   width: 90%;
+   height: 80%;
+   margin-top: 7px;
+   border-radius: 5px;
+   color:rgb(54, 41, 24);
+   box-shadow:inset 2px 2px 2px 1px  rgb(124, 115, 102);
+ }
+
+
+.button{
+    border-radius:50%;
+    width:60px ;
+    height:60px ;
+    border: 1px solid rgba(245, 177, 143, 0.596);
+    margin:2px 2px;
+    padding:0px;
+    box-shadow:1px 1px 1px 1px rgba(20, 20, 20, 0.2);
+    display:block;
+    background-color:rgba(168, 26, 26, 0.534);
+    font-size: 1em;
+}
+
+.button:nth-child(17){
+    width:100%;
+    border-radius: 30px;
+    grid-column-start: 1 ;
+    grid-column-end: 3;
+    background-color:rgba(189, 70, 15, 0.534);
+  }
+  .button:nth-child(1){
+    background-color:rgba(241, 159, 35, 0.849);
+  }
+  .button:nth-child(2){
+    background-color:rgba(201, 124, 8, 0.842);
+  }
+  .button:nth-child(3){
+    background-color:rgba(201, 124, 8, 0.842);
+  }
+  .button:nth-child(4){
+    background-color:rgba(201, 124, 8, 0.842);
+  }
+  .button:nth-child(8){
+    background-color:rgba(201, 124, 8, 0.842);
+  }
+  .button:nth-child(12){
+    background-color:rgba(201, 124, 8, 0.842);
+  }
+  .button:nth-child(16){
+    background-color:rgba(201, 124, 8, 0.842);
+  }
+  .button:nth-child(19){
+    background-color:rgb(241, 143, 35, 0.842);
+  }
+  .button:hover{
+    background-color:rgba(255, 255, 255, 0.747);
+}
