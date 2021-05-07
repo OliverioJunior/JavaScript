@@ -5,14 +5,12 @@
         var max = 10;
         var more = ''
         var numb1 = ''
-        function maxlength(){
-            if($screen.innerHTML.length>=max)
-            b.setAttrinute("disabled","disabled");
-        }
-        
         function number(n){
-            maxlength()
-            $screen.innerHTML += n;
+            if($screen.innerHTML.length>=max){
+
+            } else{ 
+                $screen.innerHTML += n;
+                }
         }
         function reset(){
             $screen.innerHTML = '';
@@ -51,22 +49,22 @@
            
             switch(operador){
                     case "/":
-                        maxlength()
+                        
                         $screen.innerHTML =  dividend / $screen.innerHTML;
                         clear()
                     break;
                     case "x":
-                        maxlength()
+                        
                         $screen.innerHTML *=  dividend;
                         clear()
                     break;
                     case "-":
-                        maxlength()    
+                           
                         $screen.innerHTML =  (dividend - $screen.innerHTML);
                         clear()
                     break;
                     case "+":
-                        maxlength()
+                       
                         more = parseFloat($screen.innerHTML);
                         numb1 = parseFloat(dividend);
                         more += numb1;
